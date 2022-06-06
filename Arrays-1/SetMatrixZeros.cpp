@@ -12,9 +12,7 @@ public:
                 }
             }
         } 
-        //traversing in the reverse direction and
-        //checking if the row or col has 0 or not
-        //and setting values of matrix accordingly.
+        //traversing in the reverse direction and checking if the row or col has 0 or not and setting values of matrix accordingly.
         for (int i = rows - 1; i >= 0; i--) {
             for (int j = cols - 1; j >= 1; j--) {
                 if (matrix[i][0] == 0 || matrix[0][j] == 0) {
